@@ -67,6 +67,5 @@ jobs:
           cmd: |          
             'version'
             'project development'
-            #'new-app https://github.com/${{ steps.vars.outputs.repo }}#deploy'
             'start-build prefill-svc-api'
             'status'
