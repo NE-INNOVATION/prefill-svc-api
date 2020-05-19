@@ -47,7 +47,7 @@ jobs:
           # Server address of Docker registry. If not set then will default to Docker Hub
           registry: docker.pkg.github.com
           # Docker repository to tag the image with
-          repository: ne-innovation/prefill-svc-api
+          repository: ne-innovation/prefill-svc-api/prefill-svc-api-${{ steps.vars.outputs.sha_short }}
           # Comma-delimited list of tags. These will be added to the registry/repository to form the image's tags
           tags: prefill-svc-api-${{ steps.vars.outputs.sha_short }}
           tag_with_ref: false
