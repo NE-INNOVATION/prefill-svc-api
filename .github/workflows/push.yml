@@ -58,6 +58,13 @@ jobs:
           dockerfile: ./Dockerfile
           # Whether to push the image
           push: true
+      - name: Scan Image
+        uses: Azure/container-scan@v0
+        with:
+          image-name: ne-innovation/prefill-svc-api/prefill-svc-api-${{ steps.vars.outputs.branch }}
+          username: ${{ GITHUB_USER }}
+          password: ${{ github.token }}
+          token: ${{ github.token }}       
       - name: Openshift Command
         uses: redhat-developer/openshift-actions@v1.1
         with:
