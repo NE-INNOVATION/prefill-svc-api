@@ -62,7 +62,7 @@ jobs:
         uses: Azure/container-scan@v0
         with:
           image-name: ne-innovation/prefill-svc-api/prefill-svc-api-${{ steps.vars.outputs.branch }}
-          username: ${{ GITHUB_USER }}
+          username: afu174
           password: ${{ github.token }}
           token: ${{ github.token }}       
       - name: Openshift Command
