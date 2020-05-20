@@ -61,7 +61,7 @@ jobs:
       - name: Scan Image
         uses: Azure/container-scan@v0
         with:
-          image-name: ne-innovation/prefill-svc-api/prefill-svc-api-${{ steps.vars.outputs.branch }}
+          image-name: docker.pkg.github.com/ne-innovation/prefill-svc-api/prefill-svc-api-${{ steps.vars.outputs.branch }}
           username: afu174
           password: ${{ github.token }}
           token: ${{ github.token }}       
