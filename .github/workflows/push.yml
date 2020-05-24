@@ -35,7 +35,7 @@ jobs:
           echo ::set-output name=repo::$(echo ${GITHUB_REPOSITORY})
       - name: SonarCloud Scan
         uses: sonarsource/sonarcloud-github-action@master
-          echo "Sonarcloud scan"
+        #  echo "Sonarcloud scan"
         
       - name: use vars
         run: |
