@@ -24,13 +24,7 @@ jobs:
       #- name: npm install and npm run build
        # run: |
         #  npm i
-         # npm run build
-           
-     - name: SonarCloud Scan
-      uses: sonarsource/sonarcloud-github-action@master
-      env:
-        GITHUB_TOKEN: ${{ ne-innovation }}
-        SONAR_TOKEN: ${{ NE-INNOVATION_prefill-svc-api }}
+         # npm run build           
       
       - name: Get the version
         id: vars
