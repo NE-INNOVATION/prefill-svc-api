@@ -34,12 +34,8 @@ jobs:
           echo "::set-output name=sha_short::$(git rev-parse --short HEAD)"
           echo ::set-output name=repo::$(echo ${GITHUB_REPOSITORY})
       - name: SonarCloud Scan
-        id: vars
-        run:  |
-          echo ::set-output name=tag::$(echo ${GITHUB_REF:10})
-          echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
-          echo "::set-output name=sha_short::$(git rev-parse --short HEAD)"
-          echo ::set-output name=repo::$(echo ${GITHUB_REPOSITORY})
+        uses: sonarsource/sonarcloud-github-action@master
+          echo "Sonarcloud scan"
         
       - name: use vars
         run: |
