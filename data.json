@@ -5,44 +5,44 @@
         "zipcode": "06902",
         "vehicles": [
             {
-                "VIN": "A609606D157676177",
-                "Mileage": 187185,
-                "Year": 2006,
-                "Make": "Ford",
-                "Model": "Ranger",
-                "TrimLevel": "STX 4dr SuperCab Styleside SB (3.0L 6cyl 5M)",
+                "vin": "A609606D157676177",
+                "mileage": "187185",
+                "year": "2006",
+                "make": "Ford",
+                "model": "Ranger",
+                "TrimLevel": "STX 4dr SuperCab Styleslide SB (3.0L 6cyl 5M)",
                 "Problem": "None"
             },
             {
-                "VIN": "7V76ECL4088154934",
-                "Mileage": 59264,
-                "Year": 2011,
-                "Make": "Chevrolet",
-                "Model": "Silverado 3500HD",
+                "vin": "7V76ECL4088154934",
+                "mileage": "59264",
+                "year": "2011",
+                "make": "Chevrolet",
+                "model": "Silverado 3500HD",
                 "TrimLevel": "LTZ 4dr Crew Cab LB DRW (6.0L 8cyl 6A)",
                 "Problem": "None"
             }
         ],
         "drivers": [    
             {        
-                "ID": "106304784",
-                "Name": "Dallas Edwards",
-                "Address": "3465 Andover Court, Connectivut, United States",
-                "DOB": "22/5/2001",
-                "Class": "C",
-                "Sex": "F",
-                "ISS": "28/5/2018",
-                "EXP": "28/5/2023"    
+                "lid": "106304784",
+                "name": "Dallas Edwards",
+                "address": "3465 Andover Court, Connectivut, United States",
+                "dob": "22/5/2001",
+                "class": "C",
+                "sex": "F",
+                "iss": "28/5/2018",
+                "exp": "28/5/2023"    
             },    
             {        
-                "ID": "783913161",
-                "Name": "Jayden Yniguez",
-                "Address": "1266 Cedar Avenue, Connectivut, United States",
-                "DOB": "1/1/1920",
-                "Class": "A",
-                "Sex": "M",
-                "ISS": "22/11/2017",
-                "EXP": "22/11/2022"    
+                "lid": "783913161",
+                "name": "Jayden Yniguez",
+                "address": "1266 Cedar Avenue, Connectivut, United States",
+                "dob": "1/1/1920",
+                "class": "A",
+                "sex": "M",
+                "iss": "22/11/2017",
+                "exp": "22/11/2022"    
             }
         ]
     },
@@ -52,90 +52,90 @@
         "zipcode": "06902",
         "vehicles": [
             {
-                "VIN": "1TE584469U84B02Y9",
-                "Mileage": 125537,
-                "Year": 2008,
-                "Make": "Ford",
-                "Model": "F-250 Super Duty",
+                "vin": "1TE584469U84B02Y9",
+                "mileage": "125537",
+                "year": "2008",
+                "make": "Ford",
+                "model": "F-250 Super Duty",
                 "TrimLevel": "XL 4dr SuperCab 4WD LB (5.4L 8cyl 6M)",
                 "Problem": "None"
             },
             {
-                "VIN": "A6487219639033486",
-                "Mileage": 116752,
-                "Year": 2012,
-                "Make": "Lexus",
-                "Model": "CT 200h",
-                "TrimLevel": "Premium 4dr Hatchback (1.8L 4cyl gas/electric hybrid CVT)",
+                "vin": "A6487219639033486",
+                "mileage": "116752",
+                "year": "2012",
+                "make": "Lexus",
+                "model": "CT 200h",
+                "TrimLevel": "Premium 4dr Hatchback (1.8L 4cyl gas/electric hybrlid CVT)",
                 "Problem": "None"
             }
         ],
         "drivers": [
             {
-                "ID": "161630539",
-                "Name": "Joy Evans",
-                "Address": "1836 Cedar Avenue, Connectivut, United States",
-                "DOB": "11/12/1983",
-                "Class": "A",
-                "Sex": "F",
-                "ISS": "15/7/2018",
-                "EXP": "15/7/2023"    
+                "lid": "161630539",
+                "name": "Joy Evans",
+                "address": "1836 Cedar Avenue, Connectivut, United States",
+                "dob": "11/12/1983",
+                "class": "A",
+                "sex": "F",
+                "iss": "15/7/2018",
+                "exp": "15/7/2023"    
             },    
             {
-                "ID": "564638508",
-                "Name": "Malcolm Perez",
-                "Address": "6833 Briarwood Drive, Connectivut, United States",
-                "DOB": "6/4/1919",
-                "Class": "C",
-                "Sex": "M",
-                "ISS": "16/11/2017",
-                "EXP": "16/11/2022"    
+                "lid": "564638508",
+                "name": "Malcolm Perez",
+                "address": "6833 Briarwood Drive, Connectivut, United States",
+                "dob": "6/4/1919",
+                "class": "C",
+                "sex": "M",
+                "iss": "16/11/2017",
+                "exp": "16/11/2022"    
             }
         ]
     },
     {
         "street": "2302 Colony Street",
-        "city": "Bridgeport",
+        "city": "Brlidgeport",
         "zipcode": "06606",
         "vehicles": [
             {
                 "VIN": "5UX7605716B160875",
-                "Mileage": 173570,
-                "Year": 2006,
-                "Make": "Lexus",
-                "Model": "RX 400h",
-                "TrimLevel": "4dr SUV AWD (3.3L 6cyl gas/electric hybrid CVT)",
+                "mileage": "173570",
+                "year": "2006",
+                "make": "Lexus",
+                "model": "RX 400h",
+                "TrimLevel": "4dr SUV AWD (3.3L 6cyl gas/electric hybrlid CVT)",
                 "Problem": "None"
             },
             {
                 "VIN": "E9407CZS490336878",
-                "Mileage": 244456,
-                "Year": 2006,
-                "Make": "Audi",
-                "Model": "TT",
+                "mileage": "244456",
+                "year": "2006",
+                "make": "Audi",
+                "model": "TT",
                 "TrimLevel": "180hp 2dr Hatchback (1.8L 4cyl Turbo 6A)",
                 "Problem": "None"
             },
             {
                 "VIN": "F299225U9357616E0",
-                "Mileage": 96469,
-                "Year": 2009,
-                "Make": "Subaru",
-                "Model": "Legacy",
+                "mileage": "96469",
+                "year": "2009",
+                "make": "Subaru",
+                "model": "Legacy",
                 "TrimLevel": "2.5i Special Edition 4dr Sedan AWD (2.5L 4cyl 5M)",
                 "Problem": "None"
             }
         ],
         "drivers": [
             {        
-                "ID": "412126447",
-                "Name": "Esther Harber",
-                "Address": "2432 Maiden Lane, Connectivut, United States",
-                "DOB": "5/11/1908",
-                "Class": "B",
-                "Sex": "M",
-                "ISS": "12/9/2017",
-                "EXP": "12/9/2022"    
+                "lid": "412126447",
+                "name": "Esther Harber",
+                "address": "2432 Maliden Lane, Connectivut, United States",
+                "dob": "5/11/1908",
+                "class": "B",
+                "sex": "M",
+                "iss": "12/9/2017",
+                "exp": "12/9/2022"    
             }
         ]
     }
