@@ -60,8 +60,8 @@ jobs:
         # Oc command to be executed
         cmd: |
           'version'
-          'project dev'
-          'import-image prefill-svc-api'
+          'project development'
+          'tag --source=docker quay.io/neinnovationorg/prefill-svc-api:${{ steps.extract_branch.outputs.branch }} development/prefill-svc-api:${{ steps.extract_branch.outputs.branch }}'
     - name: Scan Image
       uses: Azure/container-scan@v0
       continue-on-error: true
