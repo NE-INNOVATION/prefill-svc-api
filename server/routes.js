@@ -21,7 +21,6 @@ module.exports = () => {
   app.use('/live', health.LivenessEndpoint(healthcheck))
   app.use('/ready', health.ReadinessEndpoint(healthcheck))
   app.use('/health', health.HealthEndpoint(healthcheck))
-  app.use('/ping', health.HealthEndpoint(healthcheck))
   
   app.use(bodyParser.json())
   app.use('/api', route)
